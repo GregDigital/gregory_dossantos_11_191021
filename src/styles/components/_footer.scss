@@ -1,0 +1,30 @@
+.footer {
+  position: relative;
+  height: 205px;
+  background: $color-footer;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  p {
+    color: $color-white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .footerImg {
+    width: 145px;
+  }
+
+  .footer {
+    p {
+      font-size: 12px;
+    }
+  }
+}
