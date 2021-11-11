@@ -24,6 +24,7 @@ class Logement extends Component {
 
   render() {
     const { id } = this.props.match.params;
+
     const { logementData } = this.state;
     let index = logementData.findIndex((log) => log.id === id);
     let logement = logementData[index];
