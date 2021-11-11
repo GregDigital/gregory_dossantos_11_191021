@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/gregory_dossantos_11_191021/static/css/main.80e0a3d8.chunk.css",
+    "main.js": "/gregory_dossantos_11_191021/static/js/main.d2bb96fd.chunk.js",
+    "main.js.map": "/gregory_dossantos_11_191021/static/js/main.d2bb96fd.chunk.js.map",
+    "runtime-main.js": "/gregory_dossantos_11_191021/static/js/runtime-main.d8f3756a.js",
+    "runtime-main.js.map": "/gregory_dossantos_11_191021/static/js/runtime-main.d8f3756a.js.map",
+    "static/js/2.b688297b.chunk.js": "/gregory_dossantos_11_191021/static/js/2.b688297b.chunk.js",
+    "static/js/2.b688297b.chunk.js.map": "/gregory_dossantos_11_191021/static/js/2.b688297b.chunk.js.map",
+    "index.html": "/gregory_dossantos_11_191021/index.html",
+    "static/css/main.80e0a3d8.chunk.css.map": "/gregory_dossantos_11_191021/static/css/main.80e0a3d8.chunk.css.map",
+    "static/js/2.b688297b.chunk.js.LICENSE.txt": "/gregory_dossantos_11_191021/static/js/2.b688297b.chunk.js.LICENSE.txt",
+    "static/media/logo-white.ee689fd9.svg": "/gregory_dossantos_11_191021/static/media/logo-white.ee689fd9.svg",
+    "static/media/logo.a6101328.svg": "/gregory_dossantos_11_191021/static/media/logo.a6101328.svg",
+    "static/media/starGrey.7e4ba603.svg": "/gregory_dossantos_11_191021/static/media/starGrey.7e4ba603.svg",
+    "static/media/starRed.6430150c.svg": "/gregory_dossantos_11_191021/static/media/starRed.6430150c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8f3756a.js",
+    "static/js/2.b688297b.chunk.js",
+    "static/css/main.80e0a3d8.chunk.css",
+    "static/js/main.d2bb96fd.chunk.js"
+  ]
+}
