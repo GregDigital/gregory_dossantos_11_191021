@@ -14,7 +14,7 @@ const Main = () => {
     <main className="main">
       <section className="sectionCards">
         {data.map((logement) => (
-          <article className="aptCard">
+          <article key={logement.id} className="aptCard">
             <Cards logement={logement} key={logement.name} />
           </article>
         ))}

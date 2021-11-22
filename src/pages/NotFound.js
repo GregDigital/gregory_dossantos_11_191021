@@ -14,9 +14,7 @@ const NotFound = () => {
       </p>
       <ul className="notFoundUl">
         <li>
-          <Link exact to="/" activeClassName="returnAccueil">
-            Retourner sur la page d'accueil
-          </Link>
+          <Link to="/">Retourner sur la page d'accueil</Link>
         </li>
       </ul>
       <Footer />

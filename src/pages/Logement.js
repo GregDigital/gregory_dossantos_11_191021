@@ -47,10 +47,20 @@ class Logement extends Component {
       for (let i = 0; i < star; i++) {
         rating > i
           ? starArray.push(
-              <img className="starSvg" src={red} alt="stars red" />
+              <img
+                key={starArray}
+                className="starSvg"
+                src={red}
+                alt="stars red"
+              />
             )
           : starArray.push(
-              <img className="starSvg" src={grey} alt="stars grey" />
+              <img
+                key={starArray}
+                className="starSvg"
+                src={grey}
+                alt="stars grey"
+              />
             );
       }
       return (
@@ -73,7 +83,9 @@ class Logement extends Component {
               <div className="contentStarTags">
                 <div className="contentTags">
                   {tags.map((tag) => (
-                    <div className="tags">{tag}</div>
+                    <div key={tag} className="tags">
+                      {tag}
+                    </div>
                   ))}
                 </div>
                 <div className="star">
