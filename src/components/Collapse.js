@@ -19,7 +19,7 @@ const Collapse = (props) => {
     <div className="collapse">
       <button onClick={toggleState} className="collapse-visible">
         <span>{props.label}</span>
-        <img className={toggle && "active"} src={Img} alt="chevron" />
+        <img className={toggle ? "active" : " "} src={Img} alt="chevron" />
       </button>
 
       <div
@@ -27,7 +27,7 @@ const Collapse = (props) => {
         style={{ height: toggle ? `${heightEl}` : "0px" }}
         ref={refHeight}
       >
-        <p>{props.children}</p>
+        {props.children}
       </div>
     </div>
   );
