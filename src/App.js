@@ -5,20 +5,22 @@ import Home from "./pages/Home";
 import Logement from "./pages/Logement";
 import NotFound from "./pages/NotFound";
 
-const App = () => {
-  return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/a-propos" exact component={About} />
-        <Route
-          path="/logement/:id"
-          render={(props) => <Logement {...props} />}
-        />
-        <Route component={NotFound} />
-      </Switch>
-    </BrowserRouter>
-  );
-};
+class App extends React.Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/a-propos" exact component={About} />
+          <Route
+            path="/logement/:id"
+            render={(props) => <Logement {...props} />}
+          />
+          <Route path="/*" component={NotFound} />
+        </Switch>
+      </BrowserRouter>
+    );
+  }
+}
 
 export default App;
